@@ -1,0 +1,35 @@
+.div {
+  border: 2px solid black;
+  padding: 25px;
+}
+.theme-dark {
+  background: black;
+  color: white;
+}
+
+.theme-light {
+  background: white;
+  color: black;
+}
+
+button {
+  border: none;
+  padding: 20px;
+  background: black;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  transition: 0.65s;
+  &:hover {
+    transition: 0.3s;
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+  &:active {
+    cursor: default;
+    
+  }
+}
