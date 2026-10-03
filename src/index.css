@@ -2,6 +2,11 @@
   border: 2px solid black;
   padding: 25px;
 }
+
+#divc {
+  border: 2px solid black;
+  padding: 25px;
+}
 .theme-dark {
   background: black;
   color: white;
